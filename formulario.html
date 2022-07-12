@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/formu.css">
+
+</head>
+<body>
+
+<main>
+	 <header>
+      	<a href="index.html"><img class="logo" src="img/logomarvel.png"> </a>
+
+      	 <ul class="margen">
+        <li><a href="personajes.html">Personajes</a></li>
+        <li><a href="galeria.html">Escenas</a></li>
+        <li><a href="formulario.html">Críticas</a></li>
+        </ul>
+     </header>
+     
+  <section>
+     <article id="primero">
+         <h1> Formulario de Opiniones </h1>
+
+         <h2>¡Puedes dejar tu comentario rellenando este formulario y tu opinión será verificada en nuestra sección de críticas!</h2>
+
+         <form action="usuario@dominio.com" method="post">
+	
+         <label class="texto">Nombre</label> </br>
+         <input type="text" name="nombre" required class="largo"> </br>
+
+         <label class="texto"> Apellido </label> <br>
+         <input type="text" name="apellido" required class="largo"> <br>
+
+         <label class="texto">Correo Electrónico</label> <br>
+         <input type="email" name="correo" required class="largo"> <br>
+
+         <label class="texto"> Título </label> <br>
+         <input type="text" name="titulo" required class="largo"> <br>
+
+         <label class="texto">Comentario</label> <br>
+         <textarea rows="5" cols="10" name="comentario" required class="largo"></textarea> <br>
+
+         <label class="texto"> Valoración </label> <br>
+
+         <input type="checkbox" name="estrellas" value="5"> ★ 
+         <input type="checkbox" name="estrellas" value="4"> ★
+         <input type="checkbox" name="estrellas" value="3"> ★
+         <input type="checkbox" name="estrellas" value="2"> ★
+         <input type="checkbox" name="estrellas" value="1"> ★
+
+         </br>
+
+         <input type="submit" value="Enviar" class="boton">
+         <input type="reset" value="Borrar" class="boton">
+         </form>
+
+     </article>
+
+     <article id="segundo">
+     	<img class="formu" src="img/formu.png">
+     </article>
+
+  </section>
+    <footer>
+
+     	   <img class="uces" src="img/uces.png">
+
+     	   <img class="marvel" src="img/marvel.jpg">
+
+         <a href="memoria.html"><p>Candela Gutierrez</p> </a>
+
+     </footer>
+
+     
+</main>
+
+</body>
+</html>
